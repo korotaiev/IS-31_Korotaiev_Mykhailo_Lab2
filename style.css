@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+section header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+}
+section header .logo {
+  font-size: 30px;
+  color: rgb(147, 59, 248);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 15px 0;
+}
+section header .logo span {
+  color: darkblue;
+}
+section header ul {
+  list-style: none;
+}
+section header ul li {
+  display: inline-block;
+  margin: 5px 5px;
+  padding: 5px 20px;
+}
+body {
+  background: #b3b1ff;
+  color: rgb(0, 0, 0);
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+main {
+  margin: 30px;
+}
+section header ul li a:hover {
+  color: #f9004d;
+}
+.header__item-link {
+  color: black;
+}
+.myCarousel {
+  size: 20%;
+}
+.container {
+  margin-top: 30px;
+  display: flex;
+}
+.catalog__table-list {
+  width: 322px;
+  height: 460px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  margin-top: 0px;
+  text-align: center;
+  padding: 20px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: -15px;
+}
+.catalog__table-item {
+  margin-bottom: 15px;
+  font-size: 24px;
+  position: relative;
+  padding: 10px;
+}
+.catalog__table-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  height: 2px;
+  width: 322px;
+  left: 0;
+}
+.catalog__table-item:last-child::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background-color: transparent;
+  height: 0px;
+  width: 322px;
+  left: 0;
+}
+.carousel {
+  width: 70%; /* Встановіть потрібну ширину, наприклад, 80% від батьківського контейнера */
+  height: 80%; /* Автоматичне налаштування висоти */
+  margin: 0 auto; /* Центрування каруселі */
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-caption {
+  font-size: 18px;
+}
