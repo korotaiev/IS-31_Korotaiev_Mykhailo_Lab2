@@ -11,6 +11,10 @@ section header {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   font-size: 16px;
 }
+h4{
+  text-align: center; 
+  font-size: 24px;
+}
 section header .logo {
   font-size: 30px;
   color: rgb(147, 59, 248);
@@ -90,9 +94,9 @@ section header ul li a:hover {
   left: 0;
 }
 .carousel {
-  width: 70%; /* Встановіть потрібну ширину, наприклад, 80% від батьківського контейнера */
-  height: 80%; /* Автоматичне налаштування висоти */
-  margin: 0 auto; /* Центрування каруселі */
+  width: 70%; 
+  height: 80% 
+  margin: 0 auto; 
   display: flex;
   justify-content: space-between;
 }
